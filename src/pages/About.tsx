@@ -104,27 +104,36 @@ function About() {
         >
           <div className="space-y-10">
             <div className="rounded-[2rem] border border-[#D4AF37]/20 bg-white/90 p-8 shadow-[0_25px_70px_rgba(110,78,55,0.08)]">
-              <p className="text-sm uppercase tracking-[0.24em] text-[#C8A24A]">Experience</p>
-              <h2 className="mt-4 text-3xl font-semibold text-[#111111]">Senior Data Science Leadership</h2>
-              <p className="mt-4 text-base leading-8 text-[#5A5248]">
-                Delivered enterprise-grade analytics, AI-driven automation, and dashboard intelligence to solve complex problems in public safety, urban systems, recruitment, and forecasting.
-              </p>
-            </div>
+              <p className="text-sm uppercase tracking-[0.24em] text-[#C8A24A]">Internship Experience</p>
+              <h2 className="mt-4 text-3xl font-semibold text-[#111111]">Hands-on internship experience in Data Analytics, Machine Learning, Computer Vision, and Business Intelligence.</h2>
+              <div className="mt-8 space-y-8">
+                <div className="rounded-[1.75rem] border border-[#D4AF37]/15 bg-[#FFFDF8] p-6 shadow-sm">
+                  <p className="text-sm uppercase tracking-[0.18em] text-[#6E4E37]">Data Analyst Intern</p>
+                  <h3 className="mt-3 text-2xl font-semibold text-[#111111]">Commissioner of Police, Ernakulam</h3>
+                  <p className="mt-2 text-sm leading-7 text-[#5A5248]">June 2025 – November 2025 | Kochi, Kerala</p>
+                  <p className="mt-4 text-sm font-semibold text-[#111111]">Python, YOLOv8, OpenCV, Power BI, Google Maps API, Excel</p>
+                  <ul className="mt-5 list-disc space-y-3 pl-5 text-[#5A5248]">
+                    <li>Built AI-based vehicle detection using YOLOv8.</li>
+                    <li>Analyzed traffic congestion across Kochi city junctions.</li>
+                    <li>Created Power BI dashboards for traffic KPIs.</li>
+                    <li>Worked with CCTV video datasets using Python and OpenCV.</li>
+                    <li>Supported data-driven traffic analysis and route optimization.</li>
+                  </ul>
+                </div>
 
-            <div className="rounded-[2rem] border border-[#D4AF37]/20 bg-white/90 p-8 shadow-[0_25px_70px_rgba(110,78,55,0.08)]">
-              <h3 className="text-3xl font-semibold text-[#111111]">Experience Highlights</h3>
-              <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-                {[
-                  { label: 'AI-led Programs', value: '4+' },
-                  { label: 'Dashboard Platforms', value: '6+' },
-                  { label: 'Enterprise Models', value: '8' },
-                  { label: 'Decision Copilots', value: '3' },
-                ].map((item) => (
-                  <div key={item.label} className="rounded-3xl bg-[#FFFDF8] p-6 shadow-sm">
-                    <p className="text-3xl font-semibold text-[#111111]">{item.value}</p>
-                    <p className="mt-2 text-sm uppercase tracking-[0.18em] text-[#5A5248]">{item.label}</p>
-                  </div>
-                ))}
+                <div className="rounded-[1.75rem] border border-[#D4AF37]/15 bg-[#FFFDF8] p-6 shadow-sm">
+                  <p className="text-sm uppercase tracking-[0.18em] text-[#6E4E37]">Data Analyst Intern</p>
+                  <h3 className="mt-3 text-2xl font-semibold text-[#111111]">Tech Vitez International Pvt Ltd, Calicut</h3>
+                  <p className="mt-2 text-sm leading-7 text-[#5A5248]">June 2023 – March 2024 | Calicut, Kerala</p>
+                  <p className="mt-4 text-sm font-semibold text-[#111111]">Python, SQL, Scikit-learn, Statsmodels, Power BI</p>
+                  <ul className="mt-5 list-disc space-y-3 pl-5 text-[#5A5248]">
+                    <li>Worked on Kerala rainfall and flood data analysis.</li>
+                    <li>Built machine learning and time-series models for flood prediction.</li>
+                    <li>Improved prediction accuracy compared to baseline models.</li>
+                    <li>Created Power BI dashboards for climate risk insights.</li>
+                    <li>Presented insights for disaster preparedness planning.</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -134,13 +143,13 @@ function About() {
             <div className="mt-6 space-y-6">
               <div className="rounded-3xl bg-white/90 p-6 shadow-sm">
                 <p className="text-sm uppercase tracking-[0.18em] text-[#6E4E37]">Current role</p>
-                <p className="mt-3 text-xl font-semibold text-[#111111]">Senior Analytics Consultant</p>
-                <p className="mt-2 text-sm leading-7 text-[#5A5248]">Advising on data modernization, BI strategy, and AI productization for enterprise teams.</p>
+                <p className="mt-3 text-xl font-semibold text-[#111111]">Data Science Intern</p>
+                <p className="mt-2 text-sm leading-7 text-[#5A5248]">Worked on analytics, CV, and BI tasks during internship projects.</p>
               </div>
               <div className="rounded-3xl bg-white/90 p-6 shadow-sm">
                 <p className="text-sm uppercase tracking-[0.18em] text-[#6E4E37]">Impact focus</p>
-                <p className="mt-3 text-xl font-semibold text-[#111111]">Business value, operational efficiency, and executive insight.</p>
-                <p className="mt-2 text-sm leading-7 text-[#5A5248]">Designing analytics products that drive measurable ROI and leadership-ready storytelling.</p>
+                <p className="mt-3 text-xl font-semibold text-[#111111]">Hands-on analytics delivery</p>
+                <p className="mt-2 text-sm leading-7 text-[#5A5248]">Supporting practical, data-driven outcomes with models and dashboards.</p>
               </div>
             </div>
           </div>
